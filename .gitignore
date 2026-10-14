@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+data/universe.csv
+data/cache/*.csv
+data/cache/prices/*.csv
+outputs/*.csv
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+data/cache/
+outputs/
+
+# Downloaded patch archives
+*.zip
+
+# Temporary patch documentation
+PATCH_README.txt
+README_PATCH.md
+
+# Windows download metadata
+*:Zone.Identifier
+
+# Local backup files
+*.bak
